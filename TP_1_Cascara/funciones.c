@@ -1,42 +1,37 @@
-/**
- * \ CALCULADORA
- * \ ALUMNO: HERNAN GASTON FRANCO
- * \ DNI: 39664999
- * \ CURSO: CURSO: 1°F
- */
+#include <stdio.h>
+#include <stdlib.h>
 
 #define false 0
 #define true 1
 
-//FUNCION SUMAR.
 int sumar(int a, int b)
 {
     int resultado;
     resultado = a + b;
     return resultado;
 }
-//FUNCION RESTAR.
+
 int restar(int a, int b)
 {
     int resultado;
     resultado = a - b;
     return resultado;
 }
-//FUNCION DIVIDIR.
+
 float dividir(float a, float b)
 {
     float resultado;
     resultado = a / b;
     return resultado;
 }
-//FUNCION MULTIPLICAR.
+
 int multiplicar(int a, int b)
 {
     int resultado;
     resultado = a * b;
     return resultado;
 }
-//FUNCION FACTORIAL.
+
 float factorial(float a)
 {
     float resultado;
@@ -48,7 +43,7 @@ float factorial(float a)
     printf("El factorial es: %.0f\n", resultado);
     return resultado;
 }
-//FUNCION VERIFICAR.
+
 int verificacion(int a, int b)
 {
     if(a == 0 || b == 0)
@@ -57,7 +52,7 @@ int verificacion(int a, int b)
         return true;
 }
 
-//FUNCION CALCULAR SUMA Y VERIFICAR.
+
 void calcuSuma(int a, int b)
 {
     if(verificacion(a, b))

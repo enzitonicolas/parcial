@@ -1,9 +1,3 @@
-/**
- * \ CALCULADORA
- * \ ALUMNO: HERNAN GASTON FRANCO
- * \ DNI: 39664999
- * \ CURSO: CURSO: 1°F
- */
 #include <stdio.h>
 #include <stdlib.h>
 #include "funciones.h"
