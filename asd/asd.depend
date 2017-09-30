@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1506734938 source:f:\programacion_1 laboratorio_1\clases\clase 11\asd\aka.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"aka.h"
+
+1506465633 f:\programacion_1 laboratorio_1\clases\clase 11\asd\aka.h
+
+1506734987 source:f:\programacion_1 laboratorio_1\clases\clase 11\asd\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"aka.h"
+
